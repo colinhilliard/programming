@@ -12,7 +12,7 @@ int main()
 	cout << "How many minutes is the lesson?";
 	cin >> minutes;
 	lessonprice = priceper30 * minutes;
-	cout << "The price for the lesson will be " << lessonprice << " dollars" << ".";
-	
+	cout << "The price for the lesson will be " << lessonprice << " dollars" << ".\n";
+	cout << "Have a nice day.";
 	return 0;
 }
